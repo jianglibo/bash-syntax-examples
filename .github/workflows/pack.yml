@@ -1,0 +1,23 @@
+name: Run Bash Script
+# on message dont't contains [skip ci], run ci.
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: ${{ contains(github.event.commits[0].message, '!pack!') }}
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run a one-line script
+        run: jbang pack.java ./src/cats
+        shell: bash
+
+      - name: Commit and push change.
+        run: |
+          git config --local user.email "jianglibo@gmail.com"
+          git config --local user.name "jianglibo"
+          git add .
+          git commit -m "update cats"
+          git push
