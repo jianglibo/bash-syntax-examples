@@ -1,6 +1,6 @@
 
 
-# test and compare string, equal and not equal
+### test and compare string, number, equal and not equal
 # =: equal
 # !=: not equal
 # <: less than

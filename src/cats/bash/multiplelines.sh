@@ -1,4 +1,5 @@
-# assign multiple lines string to a variable and interpolate the variables in the multiple lines
+
+### multiple lines string to a variable and interpolate the variables in the multiple lines
 
 # 1. use cat << EOF
 # 2. use cat << "EOF"

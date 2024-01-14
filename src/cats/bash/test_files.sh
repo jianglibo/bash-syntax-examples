@@ -1,5 +1,5 @@
 
-# test file or directory existance.
+### test file or directory existance.
 # -e: file existance
 # -d: directory existance
 # -f: file existance and is a regular file
