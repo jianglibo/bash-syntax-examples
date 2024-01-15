@@ -13,6 +13,7 @@ jobs:
         uses: actions/setup-java@v4.0.0
         with:
           java-version: '21'
+          distribution: 'corretto'
       - uses: jbangdev/setup-jbang@v0.1.1
       - name: create a json file for every directory.
         run: jbang pack.java ./src/cats
