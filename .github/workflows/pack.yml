@@ -20,6 +20,8 @@ jobs:
         shell: bash
       - name: Commit and push change.
         run: |
+          git config --local user.email "jianglibo@gmail.com"
+          git config --local user.name "jianglibo"
           git add .
           git commit -m "generate pack json file."
           git push
