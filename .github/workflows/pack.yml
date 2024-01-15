@@ -14,7 +14,7 @@ jobs:
         with:
           java-version: '21'
       - uses: jbangdev/setup-jbang@v0.1.1
-      - name: Run a one-line script
+      - name: create a json file for every directory.
         run: jbang pack.java ./src/cats
         shell: bash
 
