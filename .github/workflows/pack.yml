@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4.1.1
-
+      - uses: jbangdev/setup-jbang@v0.1.1
       - name: Run a one-line script
         run: jbang pack.java ./src/cats
         shell: bash
