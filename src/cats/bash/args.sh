@@ -1,6 +1,7 @@
 
 
 ### bash arguments process
+#using Ctrl-z to revert to previous contents.
 
 # $0: script name
 # $1: first argument

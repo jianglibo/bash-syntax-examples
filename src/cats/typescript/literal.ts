@@ -1,5 +1,6 @@
 
 // ### typescript literal types example
+// using Ctrl-z to revert to previous contents.
 
 let aliteral = {
 	'a': 0

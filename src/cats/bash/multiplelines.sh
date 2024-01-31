@@ -1,5 +1,6 @@
 
 ### multiple lines string to a variable and interpolate the variables in the multiple lines
+#using Ctrl-z to revert to previous contents.
 
 # 1. use cat << EOF
 # 2. use cat << "EOF"

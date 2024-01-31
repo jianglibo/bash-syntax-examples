@@ -1,6 +1,9 @@
 
 ### test command or application installed.
+#using Ctrl-z to revert to previous contents.
+
 # -v: command or application existance
+# using command is better than using which.
 
 if command -v git >/dev/null 2>&1; then
 	echo "git command exist"

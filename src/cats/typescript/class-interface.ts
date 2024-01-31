@@ -1,5 +1,6 @@
 
 // ### what class and interfacde like
+// using Ctrl-z to revert to previous contents.
 // class:
 // 1. class is a blueprint of an object
 // 2. class is a type

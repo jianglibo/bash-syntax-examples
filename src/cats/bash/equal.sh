@@ -1,6 +1,7 @@
 
 
 ### test and compare string, number, equal and not equal
+#using Ctrl-z to revert to previous contents.
 # =: equal
 # !=: not equal
 # <: less than

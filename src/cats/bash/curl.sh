@@ -1,5 +1,6 @@
 
 ### 常见的curl用法
+#using Ctrl-z to revert to previous contents.
 
 # 1. 下载文件
 curl -O http://www.example.com/file.zip # -O: 保存文件的名字为远程文件的名字

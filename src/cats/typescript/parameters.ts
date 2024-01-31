@@ -1,5 +1,6 @@
 
 // ### function parameters
+// using Ctrl-z to revert to previous contents.
 
 // optional parameters
 function optionalParameters(a: number, b?: number) {

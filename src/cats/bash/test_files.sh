@@ -1,5 +1,8 @@
 
 ### test file or directory existance.
+
+#using Ctrl-z to revert to previous contents.
+
 # -e: file existance
 # -d: directory existance
 # -f: file existance and is a regular file
