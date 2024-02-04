@@ -21,7 +21,7 @@ v=$(
 	cat <<"EOF"
 line 1
 line 2
-$v1
+$v1 $v1 will keep as it is.
 EOF
 )
 echo "$v"
@@ -30,7 +30,7 @@ v=$(
 	cat <<'EOF'
 line 1
 line 2
-$v1
+$v1 $v1 will keep as it is.
 EOF
 )
 echo "$v"
