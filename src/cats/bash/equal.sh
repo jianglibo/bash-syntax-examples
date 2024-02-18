@@ -6,6 +6,12 @@
 # !=: not equal
 # <: less than
 
+# test contains string, *: any string, ? : any character, []: any character in the set
+if [[ 'abc' == *b* ]];then
+	echo "abc contains b"
+fi
+
+
 if [[ 'a' = 'a' ]];then
 	echo "a = a"
 fi
