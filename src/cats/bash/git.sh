@@ -8,3 +8,10 @@ git clone https://username:github_pat_11AA@https://github.com/jianglibo/syntax-e
 # If you're unsure, it's a good practice to communicate with your team before using git pull --rebase, especially on branches that are shared with others.
 git pull --rebase
 git pull --no-ff
+
+
+#create branch
+git branch abc
+
+# push to remote.
+git push origin abc
