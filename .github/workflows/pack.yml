@@ -1,6 +1,10 @@
 name: Run Bash Script
 # on message dont't contains [skip ci], run ci.
-on: [push]
+# on: [push]
+on:
+  push:
+    branches:
+      - 'nobranch'
 
 jobs:
   build:
